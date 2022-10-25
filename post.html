@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/native/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navigation-bar2 p-2">
+            <div class="container">
+                <div class="title">
+                    <a href="./index.html" class="navbar-brand"><img src="./assets/img/logo.png" class="logo-header"
+                            alt="logo" /></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/img/logo.png"
+                                class="logo-header" alt="logo" /></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-light">
+        <div class="container pt-3">
+            <div class="row py-3 px-lg-2 px-2 px-sm-0 px-md-1">
+                <div class="col-lg-9 col-xs-12 col-sm-12 px-md-2" id="post-view">
+
+
+                </div>
+                <aside class="col-lg-3 col-sm-12 col-xs-12 px-md-2">
+                    <div class="sidebar">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <div class="card p-3 p-lg-2 mt-3 marbot">
+                        <div class="d-flex align-items-center">
+                            <div class="image"> <img src="./assets/img/1x1.jpg" class="rounded"> </div>
+                            <div class="ms-3 ms-lg-2 w-100 ms-3">
+                                <h4 class="mb-0 mt-0">Diar J R</h4> <span>Fullstack Developer</span>
+                                <div
+                                    class="p-2 mt-2 mt-lg-1 bg-primary d-flex justify-content-between rounded text-white stats">
+                                    <div class="d-flex flex-column"> <span class="articles">Articles</span> <span
+                                            class="number1">8</span>
+                                    </div>
+                                    <div class="d-flex flex-column"> <span class="followers">Followers</span> <span
+                                            class="number2">980</span>
+                                    </div>
+                                    <div class="d-flex flex-column"> <span class="rating">Rating</span> <span
+                                            class="number3">8.9</span>
+                                    </div>
+                                </div>
+                                <div class="button mt-2 d-flex flex-row align-items-center"> <button
+                                        class="btn btn-sm btn-outline-primary w-100">Chat</button> <button
+                                        class="btn btn-sm btn-primary w-100 ms-2">Follow</button> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-box">
+                        <h3 class="sidebar-heading">Categories</h3>
+                        <ul class="categories">
+                            <li>
+                                <a href="#" class="text-decoration-none">Fashion <span>(6)</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">Technology <span>(6)</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">Travel <span>(6)</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">Food <span>(6)</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-decoration-none">Photography <span>(6)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-box" id="sidebar-popular">
+                        <h3 class="sidebar-heading">Popular Articles</h3>
+
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+    <footer class="container d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="text-muted">© 2021 <img src="./assets/img/logo.png" class="logo-footer" alt="logo" /></span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+                <a href="https://twitter.com/DiarJR1" target="_blank" class="text-muted">
+                    <i class="fab fa-twitter icon"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://www.instagram.com/diar_j.r/" target="_blank" class="text-muted">
+                    <i class="fab fa-instagram icon"></i>
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://www.facebook.com/diar.jr198" target="_blank" class="text-muted">
+                    <i class="fab fa-facebook icon"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/42f13fdc85.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/jquery/jquery.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/native/js/script.js"></script>
+</body>
+
+</html>
